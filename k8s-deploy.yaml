@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: your_dockerhub_username/usermanagement-application-image:latest
+        image: neeraj14patil/usermanagement-application-image:latest
         ports:
         - containerPort: 8081
 ---
