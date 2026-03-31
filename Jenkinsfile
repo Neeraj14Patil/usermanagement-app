@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_USER = 'your_dockerhub_username' 
+        DOCKER_USER = 'neeraj14patil' 
         IMAGE_NAME = 'usermanagement-application-image'
     }
     stages {
