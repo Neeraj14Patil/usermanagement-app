@@ -8,9 +8,9 @@ cd usermanagement-app
 minikube start
 # Create the pull secret (Test Case 9)
 kubectl create secret docker-registry my-registry-secret \
---docker-username=YOUR_USER
---docker-password=YOUR_PASS
---docker-email=YOUR_EMAIL
+--docker-username=neeraj14patil
+--docker-password=Mfgpro@9876
+--docker-email=neeraj14091991@gmail.com
 
 # Deploy everything
 kubectl apply -f k8s-deploy.yaml
