@@ -1,6 +1,8 @@
 sudo usermod -aG docker jenkins
 sudo systemctl restart jenkins
 
+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
+
 cd ~/Desktop
 git clone https://github.com/Neeraj14Patil/usermanagement-app.git
 cd usermanagement-app
